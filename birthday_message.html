@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday!</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(Images/EF3DF07B-38EF-4377-A6A3-590D28D512ED.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #birthday-message {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity for better readability */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+    margin-bottom: 40px; /* Increase the margin bottom to create space between the message and button */
+    border: 5px solid #f6d365;
+    position: relative;
+  }
+  #birthday-message::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border: 5px solid #f6d365;
+    border-radius: 25px;
+    z-index: -1;
+  }
+  h1 {
+    font-size: 36px;
+    color: #333;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* Add text shadow for better contrast */
+  }
+  p {
+    font-size: 18px;
+    color: #333; /* Adjust the text color for better contrast */
+    line-height: 1.6;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); /* Add text shadow for better contrast */
+  }
+  .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #f6d365;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 10px 0; /* Adjusted margin to create space at the top */
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  .tab:hover {
+    background-color: #f3b852;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+</head>
+<body>
+<div id="birthday-message">
+  <h1>Happy Birthday, Wana Kyo!</h1>
+  <p>Sojunghan Wana Kyo,</p>
+  <p>On this special day, I just want to express how much you mean to me. You bring so much joy and love into my life, and I'm incredibly grateful to have you by my side.</p>
+  <p>Here's to another amazing year together filled with unforgettable memories and endless happiness.</p>
+  <p>With all my love,</p>
+  <p>From Mujahid Cumil :3</p>
+</div>
+
+<a href="photos_together.html" class="tab">Us &lt;3</a>
+<a href="photos_family.html" class="tab">Your Family &lt;3</a>
+
+<script>
+function showPhotoSection(sectionId) {
+  // Not needed for this version
+}
+</script>
+
+</body>
+</html>
